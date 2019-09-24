@@ -17,7 +17,7 @@ class App extends Component {
   state = {
     authors: [],
     books: [],
-    loading: false
+    loading: true
   };
 
   fetchAllAuthors = async () => {
